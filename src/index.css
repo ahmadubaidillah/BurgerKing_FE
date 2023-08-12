@@ -1,0 +1,68 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Flamenco", cursive;
+}
+
+.subNav-text {
+  color: #faaf18;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bg {
+  background-image: url(https://bkdelivery.co.id/static/website/img/BK_bg.jpg?5218847fa211);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.btn-warning {
+  background-color: #fbe6d6 !important;
+  border-color: #fbe6d6 !important;
+}
+.cart {
+  cursor: pointer;
+}
+.cart span:nth-child(1) {
+  font-size: 2rem;
+  color: white;
+  /* margin-top: 100px !important; */
+
+  /* margin-top: -100px; */
+}
+.cart span:nth-child(2) {
+  padding: 0 3px;
+  background-color: red;
+  color: white;
+  font-weight: bolx;
+  border-radius: 5px;
+  position: relative;
+  top: 15px;
+}
+.bb {
+  position: relative;
+  top: 23px !important;
+}
+
+@media screen and (min-width: 992px) {
+  .login-card {
+    width: 35rem !important;
+  }
+}
